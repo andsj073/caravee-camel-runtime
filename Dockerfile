@@ -22,8 +22,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf 
 
 COPY --from=build /build/target/quarkus-app /app
 
-# SBOM — full dependency list for auditing
-COPY --from=build /build/target/bom.json /app/sbom.json
+# SBOM — full dependency list for auditing (CycloneDX, outputName=sbom)
+COPY --from=build /build/target/sbom.json /app/sbom.json
 
 RUN mkdir -p /data/routes
 
