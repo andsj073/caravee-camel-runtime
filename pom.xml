@@ -138,10 +138,7 @@
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-amqp</artifactId>
     </dependency>
-    <dependency>
-      <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-rabbitmq</artifactId>
-    </dependency>
+    <!-- camel-quarkus-rabbitmq: not in Quarkus BOM, use camel-quarkus-amqp instead -->
     <dependency>
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-sjms</artifactId>
@@ -150,10 +147,7 @@
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-sjms2</artifactId>
     </dependency>
-    <dependency>
-      <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-mqtt</artifactId>
-    </dependency>
+    <!-- camel-quarkus-mqtt: not in Quarkus BOM, use camel-quarkus-paho instead -->
     <dependency>
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-paho</artifactId>
@@ -248,10 +242,7 @@
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-protobuf</artifactId>
     </dependency>
-    <dependency>
-      <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-xmlio</artifactId>
-    </dependency>
+    <!-- camel-quarkus-xmlio: not in Quarkus BOM -->
     <dependency>
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-xpath</artifactId>
